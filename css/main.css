@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
 body {
@@ -7,6 +6,10 @@ body {
 	margin: 0;
 	padding: 0;
 
+}
+
+a {
+	text-decoration: none;
 }
 
 .clearfix:after {
@@ -107,16 +110,16 @@ nav {
 	padding: 25px;
 }
 
-.about-us-second {
+.text-cotent {
 	text-align: center;
 }
 
-.about-us-second h2 {
+.text-cotent h2 {
 	margin-top: 100px;
 	font-size: 30px;
 }
 
-.about-us-second p {
+.text-cotent p {
 	margin-top: 40px;
 	color: #787878;
 	font-size: 18px;
@@ -285,251 +288,66 @@ nav {
 
 .content:hover .content-overlay{
   opacity: 1;
-=======
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+}
 
-body {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
+.load {
+	height: 100px;	
+ 	background-color: #f5f5f5;
+ 	padding-top: 43px;
+}
+
+.load p {
 	margin: 0;
-	padding: 0;
-
-}
-
-.clearfix:after {
-	content:'';
-	display: table;
-	width: 100%;
-	clear: both;
-}
-
-div {
-	box-sizing: border-box;
-}
-
-
-.container {
-	width: 1170px;
-	margin: 0 auto;
-	
-}
-
-header {
-	background-color: #e9e9e9;
-	height: 100vh;
-	background-image: url(../img/background.jpg);
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
-}
-
-.logo {
-	float: left;
-	margin-top: 22px;
-	
-
-}
-
-nav {
-	margin-top: 40px;
-	float: right;
-}
-
-.menu {
-	margin: 0;
-	padding: 0;
-	display: block;
-}
-
-.menu li {
-	float: left;
-	display: block;
-	margin-left: 30px;
-}
-
-.menu a {
-	color: #333333;
-	text-decoration: none;
 	text-transform: uppercase;
+	text-align: center;
+	color: #8e8e8e;
 	font-size: 12px;
 }
 
-.menu li:first-child a {
-	color: #10c9c3;
+.text-cotent-custom p {
+	margin-bottom: 57px;
 }
 
-.titles {
-	margin-left: 700px;
-	margin-top: 183px;
+.video-here {
+  height: 571px;
+  background-color: #e9e9e9;
+  margin-bottom: 100px;
 }
 
-.titles h2 {
-	font-size: 32px;
-	
-	margin-bottom: 0;
-}
-
-.about-us-first {
-	color: #787878;
-	font-weight: normal;
-	margin-top: 40px;
-	margin-left: 5px;
-	line-height: 30px;	
-}
-
-.button {
-	text-decoration: none;
-	background-color: #10c9c3;
-	color: #f4fcfb;
-	display: block;
-	width: 180px;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 18px;
-	margin-left: 5px;
-	margin-top: 40px;
-	padding: 25px;
-}
-
-.about-us-second {
-	text-align: center;
-}
-
-.about-us-second h2 {
-	margin-top: 100px;
-	font-size: 30px;
-}
-
-.about-us-second p {
-	margin-top: 40px;
-	color: #787878;
-	font-size: 18px;
-	font-weight: normal;
-	line-height: 30px;
-}
-
-.signature {
-	margin-top: 40px;
-
-}
-
-#about {
+.container-prof-dir {
 	padding-bottom: 100px;
+	padding-top: 40px;
+	background-color: #f5f5f5;
 }
 
-#skills {
-	background-color: #f8f9f9;
+.prof-item {
+	width: 360px;
 }
 
-.skills {
-	display: flex;
-}
-
-.skill-item {
-	flex: 1;
-	width: 50%;
-	margin-top: 164px;
-}
-
-.skill-item__bar {
-	margin-bottom: 164px;
-}
-
-.skill-item__bar h2 {
-	font-size: 30px;
-}
-
-
-
-
-.bars-titel {
-	color: #000;
-	font-size: 12px;
-	text-transform: uppercase;
-
-  
-}
-
-.bars-titel span {
-	margin-left: 15px;
-}
-
-
-.skill-item__img img{
-	display: inline-block;
-	max-width: 100%;
-	
-}
-
-.bars {
-	width: 500px;
-
-}
-
-.line {
-	margin-top: 19px;
-	height: 3px;
-	background-color:  #d8d8d8; 
-}
-
-.line div {
-	height: 3px;
-	background-color: #10c9c3; 
-}
-
-.bars-titel {
-	margin-top: 40px;
-}
-
-#statistic {
-	background-color: #10c9c3;
-}
-
-.statistic{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 240px;
-}
-
-.stat-item {
-
-}
-.stat-item span {
+.prof-item span{
+	margin-top: 60px;
+	display: -webkit-flex;
+  	display: flex;
+  	align-content: center;
+  	justify-content: center;
 	font-size: 48px;
-	color: #fff;
-	margin-right: 27px;
+	color: #656565;
+
 }
 
-.stat-info-item {
+
+.prof-name {
+	font-size: 12px;
+	color: #191919;
 	text-transform: uppercase;
-	float: right;
-	color: #fff;
+	text-align: center;
+
 }
 
-.count {
-	font-size: 18px;
-	line-height: 1.67;
-}
+.prof-descr {
 
-.name-count {
-	font-size: 14px;
-}
-.item-project {
-	height: 300px;
-	width: 340px;
-}
-
-.line-items-project {
-	display: flex;
-	justify-content: center;
-}
-
-.item-project img {
-	width: 340px;
-	height: 100%;
->>>>>>> 9257d561ad38869fb9f1950e401834525acc79a5
+  font-size: 16px;
+  text-align: center;
+  color: #787878;
+  padding-bottom: 0;
 }
